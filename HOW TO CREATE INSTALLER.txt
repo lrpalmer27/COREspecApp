@@ -1,0 +1,11 @@
+type cd 'new current dir here'
+
+from cmd type "pyinstaller 'path to python file here'"
+
+this creates a 'dist' folder in the running location
+
+Add req'd dependencies to run to folder (just common stuff like pics and database)
+
+put the installer in a zip folder
+
+use NSIS installer to create an installer pkg that installs the zip file somewhere
